@@ -12,5 +12,8 @@ libraryDependencies ++= Seq(
   guice,
   javaJdbc,
   "mysql" % "mysql-connector-java" % "5.1.44",
+  "xx.xxx" %% "xxxx" % "my-jooq-module",
   "org.jooq" % "jooq" % jOOQVersion,
+  "org.jooq" % "jooq-codegen" % jOOQVersion,
+  "org.jooq" % "jooq-meta" % jOOQVersion,
 )
